@@ -1,0 +1,37 @@
+.divider {
+  border-right: 2px solid #6e6e6e; 
+  height: 24px;                   
+  display: inline-block;         
+}
+.serviceRef {
+  display: flex;
+  flex-direction: column;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  background: #dfdfdf;
+}
+
+/* First row with name on left, since on right */
+.serviceRef .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Styling individual spans */
+.serviceRef .name {
+  font-weight: 600;
+  color: #333;
+}
+
+.serviceRef .since {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.serviceRef .living_at {
+  margin-top: 4px;
+  font-size: 0.85rem;
+  color: #44444463;
+  word-break: break-word;
+}

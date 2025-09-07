@@ -1,0 +1,43 @@
+.titlebar {
+  height: 30px;
+  background: #e6e6e6;
+  user-select: none;
+  display: grid;
+  grid-template-columns: auto max-content;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+* {
+  font-family: monospace;
+}
+#root {
+  height: calc(100% - 30px);
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+}
+.titlebar > .controls {
+  display: flex;
+}
+.titlebar button #close {
+    background-color: green;
+}
+.titlebar button {
+  appearance: none;
+  padding: 0;
+  margin-top: 5px;
+  margin-right: 10px;
+  border: none;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 17px;
+  width: 17px;
+  background-color: transparent;
+  border-radius: 50%;
+}
+.titlebar button:hover {
+  background: #d4d4d4;
+}
