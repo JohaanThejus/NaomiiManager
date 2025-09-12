@@ -11,6 +11,7 @@
 }
 * {
   font-family: monospace;
+  overflow:  hidden;
 }
 #root {
   height: calc(100% - 30px);

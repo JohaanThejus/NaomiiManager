@@ -5,4 +5,14 @@
 }
 .main-panel {
   background-color: #dfdfdfff;
+  
+}
+.new {
+  position: absolute;
+  z-index: 100000;
+  right: 0;
+  top: 0;
+  border: none;
+  outline: none;
+  background-color: #00000000;
 }

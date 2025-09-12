@@ -3,6 +3,9 @@
   height: 24px;                   
   display: inline-block;         
 }
+.serviceRef.active {
+  background-color: #d4d4d4;
+}
 .serviceRef {
   display: flex;
   flex-direction: column;
@@ -11,7 +14,6 @@
   background: #dfdfdf;
 }
 
-/* First row with name on left, since on right */
 .serviceRef .top {
   display: flex;
   justify-content: space-between;
